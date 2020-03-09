@@ -1,0 +1,55 @@
+#site-name{
+	font-family: 'Raleway';
+	font-size: 50px;
+}
+
+header{
+	background-image: linear-gradient(white,lightblue,lightblue);
+	height: 15vh;
+	margin: 0;
+}
+
+header h1{
+	text-align: left;
+	font-size: 50px;
+}
+
+.buttons{
+	float: right;
+	list-style: none;
+	margin-top: -80px;
+}
+
+.buttons ul li{
+	text-decoration: none;
+	text-align: left;
+	display: inline-block;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+.button1{
+	margin-top: 10px;
+	margin-right: 0px;
+	text-decoration: none;
+	border: 2px solid;
+	border-color: transparent;
+	padding: 30px;
+	margin: 0px;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 17px;
+}
+
+.button1:hover{
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.button li{
+	margin-right: 0px;
+}
+
+a:link, a:visited, a:hover, a:focus, a:active{
+	color:black;
+}

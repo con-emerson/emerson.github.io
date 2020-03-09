@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="testlogo.png">
+	<title>Feedback</title>
+	<link rel="stylesheet" type="text/css" href="indexstyle.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Script-->
+<script>
+	function feedbackform(){
+		alert("Thank You For Your Feedback");
+	}
+</script>
+<!--Buttons-->
+	<header>	
+		<h1 id="site-name"><strong><em>EMERSON</em></strong></h1>
+		<div class="buttons">
+		<ul>
+			<li>
+				<a class="button1" href="home.html">Home</a>
+			</li>
+			<li>
+				<a class="button1" href="contactus.html">Contact Us</a>
+			</li>
+			<li>
+				<a class="button1" href="aboutus.html">About Us</a>
+			</li>
+			<li>
+				<a class="button1" href="feedback.html">Feedback</a>
+			</li>
+			<li>
+				<a class="button1" href="index.html">Log Out</a>
+			</li>
+		</ul>
+		</div>
+		</header>
+<!--Buttons-->
+	<div class="buttons-bg-image">
+		<div class="login-container">
+			<h3 class="login-title">Feedback</h3>
+			<form name="myform" onsubmit="return feedbackform()">
+				<div class="login-info">
+					<label>Name</label>
+					<input name="name" required>
+				</div>
+				<div class="login-info">
+					<label>Email</label>
+					<input type="email" name="email" required>
+				</div>
+				<div class="login-info">
+					<label>Message</label>
+					<textarea></textarea>
+				<button type="submit" id="login-button">Submit</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="testlogo.png">
+	<script defer src="login.js"></script>
+	<link rel="stylesheet" type="text/css" href="indexstyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<title>Log In</title>
+</head>
+<body>
+	<script>
+		function validateform(){
+			var name=document.myform.name.value;
+			var password=document.myform.password.value;
+
+			if (name==null || name==""){
+				alert("Name can't be blank");
+				return false;
+			}else if(password.length<6){
+				alert("Password must be at least 6 characters long.");
+				return false;
+			}
+		}
+	</script>
+	<body>
+		<div class="image-container">
+			<div class="login-container">
+				<h3 class="login-title">Log In</h3>
+				<form name="myform"
+					action="home.html" onsubmit="return validateform()">
+					<div class="login-info">
+						<label>Username</label>
+						<input type="text" name="name">
+					</div>
+					<div class="login-info">
+						<label>Password</label>
+						<input type="password" name="password">
+					</div>
+					<button type="submit" id="login-button">Log In</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</body>
+</html>

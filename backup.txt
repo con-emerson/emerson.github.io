@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Product Box</title>
+	<link rel="stylesheet" type="text/css" href="productbox.css">
+</head>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<body>
+	<h1><center>Test</center></h1>
+	<div class="product-cards">
+		<ul>
+		<!----------PRODUCT 1---------------->
+		<li>	
+		<img src="t-shirt1.png" alt="T-Shirt" class="t-shirt1" style="width: 100%">
+		<h1>T-Shirt</h1>
+		<p class="price">?20.00</p>
+		<p>Product Description Here</p>
+		<p><button>Add to Cart</button></p>
+		</li>
+		<!----------PRODUCT 2---------------->
+		<li>	
+		<img src="t-shirt1.png" alt="T-Shirt" class="t-shirt1" style="width: 100%">
+		<h1>T-Shirt</h1>
+		<p class="price">?20.00</p>
+		<p>Product Description Here</p>
+		<p><button>Add to Cart</button></p>
+		</li>
+		<!----------PRODUCT 3---------------->
+		<li>	
+		<img src="t-shirt1.png" alt="T-Shirt" class="t-shirt1" style="width: 100%">
+		<h1>T-Shirt</h1>
+		<p class="price">?20.00</p>
+		<p>Product Description Here</p>
+		<p><button>Add to Cart</button></p>
+		</li>
+		<!----------PRODUCT 4---------------->
+		<li>	
+		<img src="t-shirt1.png" alt="T-Shirt" class="t-shirt1" style="width: 100%">
+		<h1>T-Shirt</h1>
+		<p class="price">?20.00</p>
+		<p>Product Description Here</p>
+		<p><button>Add to Cart</button></p>
+		</li>
+		<!----------PRODUCT 5---------------->
+		<li>	
+		<img src="t-shirt1.png" alt="T-Shirt" class="t-shirt1" style="width: 100%">
+		<h1>T-Shirt</h1>
+		<p class="price">?20.00</p>
+		<p>Product Description Here</p>
+		<p><button>Add to Cart</button></p>
+		</li>
+		<!----------PRODUCT 6---------------->
+		<li>	
+		<img src="t-shirt1.png" alt="T-Shirt" class="t-shirt1" style="width: 100%">
+		<h1>T-Shirt</h1>
+		<p class="price">?20.00</p>
+		<p>Product Description Here</p>
+		<p><button>Add to Cart</button></p>
+		</li>
+		<!----------PRODUCT 7---------------->
+		<li>	
+		<img src="t-shirt1.png" alt="T-Shirt" class="t-shirt1" style="width: 100%">
+		<h1>T-Shirt</h1>
+		<p class="price">?20.00</p>
+		<p>Product Description Here</p>
+		<p><button>Add to Cart</button></p>
+		</li>
+		</ul>
+	</div>
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------
+
+.product-cards {
+	box-shadow: 0 0px 16px 0  rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin:auto;
+	text-align: center;
+	font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.product-cards button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+ }
+
+.product-cards button:hover {
+	 opacity: 0.7;
+}
+
+.product-cards ul,
+.product-cards ul li {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.product-cards ul {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.product-cards ul li {
+	width: 50%;
+}

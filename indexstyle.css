@@ -1,0 +1,329 @@
+*{
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+#site-name{
+	font-family: 'Raleway';
+	font-size: 50px;
+}
+
+.slider{
+	overflow: hidden;
+	height: 472px;
+}
+
+.slider figure div{
+	width: 20%;
+	float: left;
+}
+
+.slider figure img{
+	width: 100%;
+	float: left;
+}
+
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 15s slide infinite;
+}
+
+@keyframes slide{
+	0%{
+		left: 0%;
+	}
+
+	10%{
+		left: 0%;
+	}
+
+	12%{
+		left: -100%;
+	}
+
+	22%{
+		left: -100%;
+	}
+
+	24%{
+		left: -200%;
+	}
+
+	34%{
+		left: -200%;
+	}
+
+	36%{
+		left: -100%;
+	}
+
+	46%{
+		left: -100%;
+	}
+
+	48%{
+		left: 0%;
+	}
+}
+
+header{
+	background-image: linear-gradient(white,lightblue,lightblue);
+	height: 15vh;
+	margin: 0;
+}
+
+header h1{
+	text-align: left;
+	font-size: 50px;
+}
+
+.buttons{
+	float: right;
+	list-style: none;
+	margin-top: -80px;
+}
+
+.buttons ul li{
+	text-decoration: none;
+	text-align: left;
+	display: inline-block;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+.button1{
+	margin-top: 10px;
+	margin-right: 0px;
+	text-decoration: none;
+	border: 2px solid;
+	border-color: transparent;
+	padding: 30px;
+	margin: 0px;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 17px;
+}
+
+.button1:hover{
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 41px;
+}
+
+.button li{
+	margin-right: 0px;
+}
+
+a:link, a:visited, a:hover, a:focus, a:active{
+	color:black;
+}
+
+body{
+	color: black;
+	text-align: center;
+	font-family: 'Raleway';
+}
+
+body h4{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 13px;
+}
+
+body h1{
+	color: black;
+}
+
+
+
+h1{
+	padding: 30px;
+	font-size: 50px;
+}
+
+.product-cards{
+	width: 300px;
+	height: auto;
+	margin: 20px 0px 0px 20px;
+	background-color: white;
+	background-image: linear-gradient(floralwhite,white);
+	background-clip: padding-box;
+	border: 0 solid;
+	border-radius: 10px;
+	box-shadow: 5px 10px 15px #000;
+	float: left;
+}
+
+#pr-image{
+	width: 100%;
+	height: 280px;
+}
+
+h2{
+	padding: 10px;
+}
+
+.order{
+	font-weight: normal;
+	font-size: 20px;
+	position: absolute;
+	text-indent: 330px;
+	padding-top: 820px;
+}
+
+/*Log In*/
+.image-container{
+	background-image: url("aboutusbackground.jpg");
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-container{
+	background-color:hsla(0,0%,0%,0.6);
+	padding: 50px 30px;
+	min-width: 400px;
+	width: 20%;
+	max-width: 600px;
+}
+
+.login-title{
+	font-family: 'Lato', sans-serif;
+	color: white;
+	margin-bottom: 50px;
+	font-size: 2.5em;
+	font-weight: normal;
+}
+
+.login-info{
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.login-info label{
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-weight: lighter;
+	font-size: 1.5em;
+	margin-bottom: 7px;
+}
+
+.login-info input{
+	background-color:hsla(0,0%,0%,0.2);
+	font-size: 1.5em;
+	padding: .1em .25em;
+	border: 1px solid hsla(0,0%,0%,0.9);
+	outline: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: lighter;
+}
+
+#login-button{
+	background-color:hsla(0,0%,0%,0.1);
+	border: 1px solid hsla(0,0%,0%,0.9);
+	outline: none;
+	border-radius: 5px;
+	font-size: 1.5em;
+	color: white;
+	font-weight: lighter;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#login-button:hover{
+	background-color: hsla(0,0%,0%,0.5);
+}
+/*Contact Us*/
+.buttons-bg-image{
+	background-image: url("aboutusbackground.jpg");
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-container{
+	background-color:hsla(0,0%,0%,0.6);
+	padding: 50px 30px;
+	min-width: 600px;
+	width: 20%;
+	max-width: 800px;
+}
+
+.contact-title{
+	font-family: 'Lato', sans-serif;
+	color: black;
+	margin-bottom: 50px;
+	font-size: 2.5em;
+	font-weight: normal;
+}
+
+.contact-info{
+	font-family: 'Lato', sans-serif;
+	color: white;
+	margin-bottom: 50px;
+	font-size: 2.5em;
+	font-weight: normal;
+}
+
+/*About Us*/
+#aboutusbg{
+	background-size: cover;
+	background-position: center;
+	margin-top: -15px;
+	width: 1349px;
+	height: 691px;
+}
+
+#about{
+	z-index: 100;
+	font-size: 100px;
+	text-align: justify;
+	position: absolute;
+	width: 20%;
+	padding-top: 100px;
+	color: black;
+}
+
+#aboutDesc{
+	text-align: center;
+	position: absolute;
+	padding-left: 700px;
+	color: black;
+	padding-top: 450px;
+}
+
+/*Feedback*/
+textarea{
+	resize: none;
+	background: none;
+	outline: none;
+	border:none;
+}
+
+.login-info textarea{
+	background-color:hsla(0,0%,0%,0.2);
+	font-size: 1.3em;
+	padding: .1em .25em;
+	border: 1px solid hsla(0,0%,0%,0.9);
+	outline: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: lighter;
+	height: 160px;
+	width: 340px;
+}
